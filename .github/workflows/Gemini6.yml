@@ -22,11 +22,11 @@ jobs:
 
     - name: Compile Java
       run: |
-        cd Pichsinee/HolidayTravelVehicles 
+        cd HolidayTravelVehicles 
         javac -d . *.java
       # Compile java file from directory
 
     - name: Run Java Program
       run: |
-        cd Pichsinee/HolidayTravelVehicles
+        cd HolidayTravelVehicles
         java main   
